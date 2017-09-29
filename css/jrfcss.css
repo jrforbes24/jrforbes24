@@ -8,35 +8,52 @@
         background: transparent;
     }
 
-header {
-    background: rgba(91, 97, 168, 0.3);
-    height: 20%;
-    width: 100%;
-    text-align: left;
-    padding-top: 1%;
+body {
+    background-image: url('../image/Tree.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
 }
+
+
+#theHeader {
+    width: auto;
+    height: 33vh;
+}
+
 .floatingbutton {
   display: inline-block;
   width: 350px;
   height: 200px;
   padding: 20px;
   margin: auto;
-  background: #FFF;
+  background: transparent;
   margin-top: 10px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px;
 }
 
 nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
     display: inline;
+    padding: 8px 16px;
+    width: 200px;
 }
 
 
 nav ul li a {
-    display: block;
+    display: inline;
     text-decoration: none;
     display: inline;
+    color: black;
+}
+
+#bannerText {
+    font-size: 150%;
 }
