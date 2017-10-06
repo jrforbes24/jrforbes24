@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #464646;    
+    background-color: #464646;
 }
 
 
@@ -32,6 +32,14 @@ body {
   background: transparent;
   margin-top: 10px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #cfd1cc;
 }
 
 nav ul {
@@ -52,6 +60,10 @@ nav ul li a {
     text-decoration: none;
     display: inline;
     color: black;
+}
+
+#banner {
+    margin-top: 95px;
 }
 
 #bannerText {
