@@ -17,6 +17,18 @@ body {
     background-color: #464646;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #074a8e;
+}
+
+h1 {
+    font-size: 1.25em;
+}
 
 #theHeader {
     width: auto;
@@ -34,12 +46,15 @@ body {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px;
 }
 
+
+
 nav {
     position: fixed;
     top: 0;
     width: 100%;
     padding: 20px;
-    background-color: #cfd1cc;
+    background-color: #4a4b4c;
+
 }
 
 nav ul {
@@ -58,8 +73,14 @@ nav ul li {
 nav ul li a {
     display: inline;
     text-decoration: none;
-    display: inline;
-    color: black;
+    color: white;
+    font-size: 120%;
+    padding: 5%;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #cfd1d3;
 }
 
 #banner {
