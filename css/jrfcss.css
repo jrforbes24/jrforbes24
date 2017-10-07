@@ -15,6 +15,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
+
 }
 
 a {
@@ -85,8 +86,13 @@ nav ul li a:hover {
 
 #banner {
     margin-top: 95px;
+    margin-left: 2%;
 }
 
 #bannerText {
     font-size: 150%;
+}
+
+section {
+  margin-left: 2%;
 }
