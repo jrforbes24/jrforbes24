@@ -93,6 +93,11 @@ nav ul li a:hover {
     font-size: 150%;
 }
 
-section {
+#portfolio {
   margin-left: 2%;
+}
+
+#contact {
+  margin-left: 2%;
+  margin-top: 3%;
 }
