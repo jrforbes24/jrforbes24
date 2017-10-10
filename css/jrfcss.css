@@ -24,7 +24,7 @@ a {
 }
 
 a:hover {
-    color: #074a8e;
+    color:  #c6b943;
 }
 
 h1 {
@@ -81,7 +81,7 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: none;
-    color: #cfd1d3;
+    color: #fce516;
 }
 
 #banner {
