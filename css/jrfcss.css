@@ -37,12 +37,11 @@ h1 {
 
 .floatingbutton {
   display: inline-block;
-  width: 350px;
+  width: 270px;
   height: 200px;
   padding: 20px;
   margin: auto;
   background: transparent;
-  margin-top: 10px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px;
 }
 
@@ -79,6 +78,11 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: none;
     color: #fce516;
+}
+
+img {
+    width: 203px;
+    height: 130px;
 }
 
 #banner {
