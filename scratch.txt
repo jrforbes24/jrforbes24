@@ -10,13 +10,12 @@ projects the portfolio creator has built (if you haven't built any websites befo
 User Story: I navigate to different sections of the webpage by clicking buttons in the navigation.
 
 To Do
-Navigation bar
-  takes to different parts of the page stays frozen at the top??
-Make the header to introduce my brand.
+
   arrow down like wordpress
-finish portfolio buttons with images
-  make the text look better
+
 figure out buttons for social stuff
+
+
 Contact page
 http://css3.bradshawenterprises.com/cfimg/ transition background-image // maybe make things not visible
-until you hover?? 
+until you hover??

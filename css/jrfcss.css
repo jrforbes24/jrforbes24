@@ -100,9 +100,41 @@ img {
 #contact {
   margin-left: 2%;
   margin-top: 3%;
+  display: none;
 }
 
 section {
     background: rgba(0, 3, 7, 0.1);
     padding: 5%;
+}
+
+.fa {
+    padding: 20px;
+   font-size: 30px;
+   width: 100px;
+   text-align: center;
+   text-decoration: none;
+}
+
+.fa-arrow-circle-o-down {
+     display: inline;
+     width: 30px;
+     padding: 0px;
+     font-size: 10px;
+     color: rgba(0, 3, 7, 0.5);
+}
+
+#bannerBody {
+    font-size: 110%;
+}
+
+
+#contactBefore {
+    margin-left: 2%;
+    font-size: 110%;
+}
+
+#contactBefore:hover {
+    text-decoration: none;
+    color: #fce516;
 }

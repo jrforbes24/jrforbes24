@@ -6,6 +6,8 @@
 
 	<link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/jrfcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 	<meta name="viewport" content="width=device-width" , initial-scale="1.0" >
   </head>
   <body>
@@ -15,14 +17,17 @@
                 <ul>
                     <li><a href="#banner">Home</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contactBefore">Contact</a></li>
                 </ul>
             </nav>
         </header>
     </div>
     <div id="banner">
       <p id="bannerText">jrforbes24 Web Design</p>
-      <p>Looking for a great web developer, you have come to the right place.</p>
+      <p id="bannerBody">
+          Looking for a great web developer, you have come to the right place.<a href="#portfolio" class="fa fa-arrow-circle-o-down fa-1x"></a>
+      </p>
+
     </div>
 	<section id="portfolio">
         <a href="http://jrforbes-familywebiste.s3-website-us-east-1.amazonaws.com" target='_blank'>
@@ -60,12 +65,22 @@
             </div>
         </a>
 	  </section>
+      <p id="contactBefore">Contact jrforbes24 Design</p>
       <div id="contact">
         <iframe src="https://docs.google.com/forms/d/1RazVlMR8aAGe_pceVDhhWoekqQeMR5ZgCiQTESs8p0Y/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
       </div>
   <footer>
-        <p>Contact John Forbes</p>
+        <a href="https://twitter.com/jrforbes_24" class="fa fa-twitter fa-2x" target='_blank'></a>
+        <a href="https://github.com/jrforbes24" class="fa fa-github fa-2x" target='_blank'></a>
+        <a href="https://www.linkedin.com/in/john-forbes-ab3770a/" class="fa fa-linkedin fa-2x" target='_blank'></a>
 	</footer>
 
   </body>
+  <script>
+      $(document).ready(function(){
+      $("#contactBefore").click(function(){
+          $(this).next("div").slideToggle('slow');
+      });
+    });
+</script>
 </html>
